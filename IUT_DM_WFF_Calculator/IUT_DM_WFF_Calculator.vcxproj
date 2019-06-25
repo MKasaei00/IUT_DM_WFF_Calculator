@@ -115,10 +115,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FileHelper.cpp" />
+    <ClCompile Include="Formula.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cli.h" />
+    <ClInclude Include="FileHelper.h" />
+    <ClInclude Include="Formula.h" />
+    <ClInclude Include="Tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
